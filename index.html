@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+
+    <article>
+    <title>Document</title>
+      <div style="position: relative; left: 400px; top:80px;">
+        <h1>Catálogo de Filmes</h1>
+      </div>
+    </article>
+</header>
+<head>
+
+
+  <div style="position: relative; left: 800px; top:20px;">
+    <h1>HOME PAGE</h1>
+  </div>
+
+</head>
+  <link rel="stylesheet" href="style.css">
+  <body class="corpo">
+   <section>
+    <img class="imagems" src="Filmes.jpg" style="position: relative; left: 20%; top:20px;"></img>
+
+    <img class="imagems" src="matrix.jpg" style="position: relative; left: -20%; top: 350px;"></img>
+
+    <img class="imagems" src="sonic.jpg" style="position: relative; left: -15%; top: 350px;"></img>
+
+    <img class="imagems" src="vingadores.jpg" style="position: relative; left: 6.7%; top: 500px;"></img>
+
+    <img class="imagems" src="morbius.jpg" style="position: relative; left: 12%; top: 500px;"></img>
+   </section>
+  </body>
+  
+  <body>
+    <script>
+  function favoritar(filme) {
+    localStorage.setItem(filme, 'favorito');
+    alert(filme + ' foi adicionado aos favoritos!');
+  }
+
+  function desfavoritar(filme) {
+    localStorage.removeItem(filme);
+    alert(filme + ' foi removido dos favoritos!');
+  }
+</script>
+
+<div style="position:relative; left:1%; top:-430px;">
+  <button onclick="favoritar('matrix')">Favoritar Matrix</button>
+  <button onclick="desfavoritar('matrix')">Desfavoritar Matrix</button>
+  <br><br>
+  <button onclick="favoritar('sonic')">Favoritar Sonic</button>
+  <button onclick="desfavoritar('sonic')">Desfavoritar Sonic</button>
+  <br><br>
+  <button onclick="favoritar('morbius')">Favoritar Morbius</button>
+  <button onclick="desfavoritar('morbius')">Desfavoritar Morbius</button>
+  <br><br>
+  <button onclick="favoritar('vingadores')">Favoritar Vingadores</button>
+  <button onclick="desfavoritar('vingadores')">Desfavoritar Vingadores</button>
+</div>
+
+  </body>
+
+<main>
+<div style="position: relative; left: 6.4%; top:-40px;">
+  <p>Thomas conhece os misteriosos Morpheus e Trinity e descobre<br> 
+    que é vítima de um sistema inteligente artificial chamado Matrix,<br> 
+    reponsável por uma ilusão digital do mundo real enquanto usa<br>
+    os humanos para produzir energia.Neo se junta à Morpheus e<br> 
+    descobre a resistência, que suspeita de ele ser o Escolhido,para<br> 
+    libertar a humanidade dessa terrível distopia.<br>
+  </p>
+</div>
+
+<div style="position: relative; left: 38%; top:-168px;">
+  <p>Sonic um porco-espinho antropormófico é teletransportado para<br> 
+    o planeta Terra após causar uma pane elétrica em parte dos Estados<br> 
+    Unidos. Se une a um xerife da cidade chamado Tom visando<br> 
+    escapar do governo e derrotar o cientista Dr.Robotnik, que tem<br> 
+    como objetivo roubar os poderes de Sonic usando robótica<br>
+  </p>
+</div>
+
+<div style="position: relative; left:39%; top:130px;">
+  <p>O bioquímico Michael Morbius tenta curar-se de uma doença<br> 
+    rara no sangue, Michael Morbius está determinado a salvar<br> 
+    pessoas que tenham uma condição parecida. Depois de fazer<br> 
+    uma aposta extrema com enzimas de morcego em si mesmo,<br> 
+    aos poucos, ele assume forma de semelhate à de um vampiriro.<br>
+  </p>
+</div>
+
+<div style="position: relative; left: 6.8%; top:23px;">
+  <p>Um grupo de herois chamados Os Vingadores unem-se na<br>
+    missão envolvendo voltar no tempo e coletar todas as seis<br>
+    pedras infinitas, antes de Thanos usá-las para infligir<br> 
+    sua vontade maléfica de eliminar o universo e recriar um<br> 
+    novo em cima.<br>
+  </p>
+</div>
+</main>
+
+<footer>
+  <nav>
+   <div style="position: relative; left: 26%; top:-400px;">
+    <a href="https://www.warnerbros.com/movies/matrix">Veja Matrix em</a>
+   </div>  
+
+   <div style="position: relative; left: 48%; top:-420px;">
+    <a href="https://www.primevideo.com/-/pt/detail/Sonic-O-Filme/0HN7PSV5T5IC5SNZVZ9LFM3A7E">Assistir Sonic em</a>
+   </div>  
+
+   <div style="position: relative; left: 49%; top:-30px;">
+    <a href="https://www.sonypictures.com.br/filmes/morbius">Assistir Morbius</a>
+   </div>  
+
+   <div style="position: relative; left: 14%; top:-66px;">
+    <a href="https://www.disneyplus.com/pt-br/movies/vingadores-guerra-infinita-da-marvel-studios/1WEuZ7H6y39v">Ver Vingadore Guerra Infinita</a>
+   </div>                
+  
+        <div style="position: relative; left: 870px; top:-1200px;">
+         <a href="Matrix.html"><h1>Matrix</h1></a>
+        </div>  
+
+        <div style="position: relative; left: 875px; top:-1200px;">
+          <a href="Sonic.html"><h1>Sonic</h1></a>
+         </div>  
+      
+         <div style="position: relative; left:865px; top:-1200px;">
+          <a href="morbius.html"><h1>Morbius</h1></a>
+         </div>  
+      
+         <div style="position: relative; left: 835px; top:-1200px;">
+          <a href="vingadores.html"><h1>Guerra Infinita</h1></a>
+         </div>
+         
+         <div style="position: relative; left:32%; top:-1100px;">
+          <a href="lista.html"><h1>Lista</h1></a>
+         </div> 
+
+  </nav>
+ copright(Fernando)(M 886321)
+
+
+ </footer> 
+</html>

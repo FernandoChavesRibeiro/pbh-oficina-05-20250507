@@ -1,0 +1,90 @@
+body {
+    background-color: rgba(255, 255, 0, 0.674);    
+    }
+    
+    .imagems {
+        height: 250px;
+        width: 400px;
+    }
+    *{
+    padding: 0;
+    border: 0;
+}
+
+
+#entrar {
+    border: 2px solid blue;
+    background-color: blue;
+    border-collapse: separate;
+    border-spacing: 0;
+    padding: 10px; 
+}
+
+#entrar th {
+    background-color: blue;
+    margin: 0;
+    padding: 0 10px;
+    color: red;
+    text-align: center;
+}
+
+#entrar td {
+    border-right: 2px solid blue;
+    background-color: white;
+    padding: 8px;
+}
+
+#entrar textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 6px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+#definir {
+    border: 2px solid purple;
+    background-color: purple;
+    border-collapse: separate;
+    border-spacing: 0;
+    padding: 10px; 
+}
+
+#definir th {
+    background-color: purple;
+    margin: 0;
+    padding: 0 10px;
+    color: yellow;
+    text-align: center;
+}
+
+#definir td {
+    border-right: 2px solid purple;
+    background-color: white;
+    padding: 8px;
+}
+
+#definir textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 6px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+    #mesa {
+        font-size: 40px;
+    }
+    
